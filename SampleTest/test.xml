@@ -1,0 +1,14 @@
+<suite name="Suite One" parallel="tests" >
+  <listeners>
+  
+    <listener class-name="com.base.CustomReporter" />
+   
+ </listeners>
+ 
+ <test name="Test one" >
+  <classes>
+   <class name="com.tests.GoodRxTest" />
+  </classes>
+ </test>
+ 
+</suite>
